@@ -57,38 +57,3 @@ section img:hover,
     background: lighten($baseColor, 8%);
 }
 
-
-.row {
-    /*text-align: center;*/
-    padding-top: 20px;
-  }
-  /*My beatiful portfolio section*/
-  .row div {
-    display: inline-block;
-    /*text-align: center;*/
-    padding: 20px;
-  }
-  /*Properties of the portfolio images*/
-  .row div img {
-    width: 250px;
-    top: 0;
-    padding-top: 20px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
-    padding: 10px;
-    border-radius: 2px;
-    transition: all 0.5s ease-in;
-    float: left;
-    opacity: 0.9;
-    filter: grayscale(0.5);
-
-  }
-  /*Portfolio images interactivity*/
-  .row div img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 20px 20px 5px rgba(0, 0, 0, 0.70);
-    opacity: 1;
-    transition: all 0.5s ease-in;
-    filter: grayscale(0);
-  }
-
-
